@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "oop-wo-oop-task"
+version = "0.1.0"
+description = ""
+authors = ["Fedor Shabernev"]
+readme = "README.md"
+packages = [{include = "oop_wo_oop_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+test = "oop_wo_oop_task.test:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
